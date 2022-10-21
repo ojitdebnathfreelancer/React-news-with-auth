@@ -1,0 +1,32 @@
+.news-sumary{
+    background-color:rgb(253, 253, 253);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0, 0.5);
+}
+
+.authur{
+    background-color: #f2ede7;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    padding: 10px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid #777777;
+}
+
+.authur .auth-info{
+    display: flex;
+    align-items: center;
+}
+
+.authur .auth-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.authur img{
+    border-radius: 50%;
+}
